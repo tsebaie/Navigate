@@ -1,14 +1,59 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content class="body">
+<div class="header">
+  ROLEX APP
+</div>
+  <ion-list  >
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+    <div class="d" >
+    <!-- <img src="../../assets/imgs/Business.jpg" alt=""> -->
+      <ion-item class="item">
+        <ion-label floating style="color: white">Name</ion-label>
+        <ion-input type="text" #Name></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating style="color: white">Surname</ion-label>
+        <ion-input type="text" #Surname></ion-input>
+      </ion-item>
+      <!-- <ion-item>
+        <ion-label floating style="color: white">Gender</ion-label>
+        <ion-input type="text" #Gender></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating style="color: white">Identity Number</ion-label>
+        <ion-input type="text" #IdNo></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating style="color: white">Nationality</ion-label>
+        <ion-input type="text" #Nationality></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating style="color: white">streetName</ion-label>
+        <ion-input type="text" #StreetName></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating style="color: white">City</ion-label>
+        <ion-input type="text" #City></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label floating style="color: white">Province</ion-label>
+        <ion-input type="text" #Province></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating style="color: white">PostalCode</ion-label>
+        <ion-input type="text" #PostalCode></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating style="color: white">EmailAdress</ion-label>
+        <ion-input type="text" #EmailAdress></ion-input>
+      </ion-item>
+       -->   </div>
+      <button class="btn"  ion-button color ="primary" (click)="submit(Name.value,Surname.value)">Save</button>
+ 
+    </ion-list>
 </ion-content>
